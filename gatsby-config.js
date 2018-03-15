@@ -7,9 +7,9 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-contentful',
-      options: process.env.NODE_ENV === 'development' ?
-        contentfulConfig.development :
-        contentfulConfig.production
-    },
+      options: {
+        spaceId: process.env.CONTENTFUL_SPACE_ID || '',
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN || '',
+      },
   ],
 }
