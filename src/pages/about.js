@@ -8,8 +8,11 @@ import ArticlePreview from '../components/article-preview'
 class AboutPage extends Component {
   render() {
     return (
-      <div className="wrapper">
+      <div style={{ background: '#fff' }}>
+        <Helmet title={siteTitle} />
+        <div className="wrapper">
         <p>About me.</p>
+      </div>
       </div>
     );
   }
