@@ -7,6 +7,7 @@ import ArticlePreview from '../components/article-preview'
 
 class AboutPage extends Component {
   render() {
+    const siteTitle = get(this, 'props.data.site.siteMetadata.title')
     return (
       <div style={{ background: '#fff' }}>
         <Helmet title={siteTitle} />
