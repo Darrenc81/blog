@@ -11,6 +11,7 @@ class AboutPage extends Component {
       <div style={{ background: '#fff' }}>
         <Helmet title={siteTitle} />
         <div className="wrapper">
+        <div className={styles.hero}>About</div>
         <p>About me.</p>
       </div>
       </div>
