@@ -14,6 +14,8 @@ module.exports = {
        
       
       },
+    }
+    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
        trackingId: "UA-116081281-1",
@@ -23,8 +25,8 @@ module.exports = {
         anonymize: true,
         // Setting this parameter is also optional
         respectDNT: true,
-      }
-      }
+      },
+      },
     
-  ]
-}
+  ],
+};
